@@ -17,7 +17,7 @@ audio {
     width: 100px;
     padding-left: 100px;
     position: absolute;
-    bottom: 950px;
+    bottom: 900px;
     left: 340px;
     z-index: 2;
 }
