@@ -1,0 +1,56 @@
+
+.pa {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    bottom: 450px;
+    left: 210px;
+    z-index: 2;
+
+}
+/* * {
+    background-color: #ffff;
+} */
+
+audio {
+    /* background-color: red; */
+    width: 100px;
+    padding-left: 100px;
+    position: absolute;
+    bottom: 450px;
+    left: 630px;
+    z-index: 2;
+}
+.img-1 {
+    background-image: url('./img-2.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.3;
+    animation: spin 20s linear infinite;
+}
+@keyframes spin {
+    0% {
+        background-image: url('./img-2.jpg');
+
+    }
+    33% {
+        background-image: url('./img-1.jpg');
+
+    }
+    66% {
+        background-image: url('./img-3.jpg');
+
+    }
+    100% {
+        background-image: url('./img-4.jpg');
+
+    }
+}
+
+canvas {
+    z-index: 2;
+}
