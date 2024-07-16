@@ -4,7 +4,7 @@
     color: white;
     position: absolute;
     bottom: 450px;
-    left: 210px;
+    left: 270px;
     z-index: 2;
 
 }
@@ -17,8 +17,8 @@ audio {
     width: 100px;
     padding-left: 100px;
     position: absolute;
-    bottom: 460px;
-    left: 630px;
+    bottom: 1050px;
+    left: 340px;
     z-index: 2;
 }
 .img-1 {
