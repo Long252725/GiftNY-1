@@ -30,9 +30,12 @@ audio {
     bottom: 0;
     z-index: 1;
     opacity: 0.3;
-    animation: spin 20s linear infinite;
+    animation: spin 30s linear infinite;
 }
 @keyframes spin {
+    0% {
+        background-image: url('./img-1.jpg');
+    }
 33% {
         background-image: url('./img-2.jpg');
 
